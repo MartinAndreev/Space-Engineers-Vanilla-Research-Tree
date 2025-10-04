@@ -1,0 +1,393 @@
+<?xml version="1.0"?><!-- Created by VTTR ResearchGroups Editor on: 2022-05-26 17:36 -->
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Blueprints>
+    <!-- Cargo -->
+    <!-- Non Conveyord Storage -->
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>T1_VTTR_BP_STOR_C1</SubtypeId>
+      </Id>
+      <DisplayName>{LOC:DisplayName_T1_VTTR_STOR_C1}</DisplayName>
+      <Icon>Textures\GUI\Icons\AQD_research_storage.dds</Icon>
+      <Prerequisites>
+        <Item Amount="5" TypeId="Component" SubtypeId="AQD_Comp_ResearchMaterial" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1" TypeId="Component" SubtypeId="VTTR_Tech_STOR_C1" />
+      </Results>
+      <BaseProductionTimeInSeconds>200</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <!-- Small Conveyored Storage -->
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>T1_VTTR_BP_STOR_C2</SubtypeId>
+      </Id>
+      <DisplayName>{LOC:DisplayName_T1_VTTR_STOR_C2}</DisplayName>
+      <Icon>Textures\GUI\Icons\AQD_research_storage.dds</Icon>
+      <Prerequisites>
+        <Item Amount="5" TypeId="Component" SubtypeId="AQD_Comp_ResearchMaterial" />
+        <Item Amount="1" TypeId="Component" SubtypeId="VTTR_Tech_STOR_C1" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1" TypeId="Component" SubtypeId="VTTR_Tech_STOR_C2" />
+      </Results>
+      <BaseProductionTimeInSeconds>200</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+     <!-- Conveyors -->
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>T1_VTTR_BP_STOR_C3</SubtypeId>
+      </Id>
+      <DisplayName>{LOC:DisplayName_T1_VTTR_STOR_C3}</DisplayName>
+      <Icon>Textures\GUI\Icons\AQD_research_storage.dds</Icon>
+      <Prerequisites>
+        <Item Amount="15" TypeId="Component" SubtypeId="AQD_Comp_ResearchMaterial" />
+        <Item Amount="1" TypeId="Component" SubtypeId="VTTR_Tech_STOR_C2" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1" TypeId="Component" SubtypeId="VTTR_Tech_STOR_C3" />
+      </Results>
+      <BaseProductionTimeInSeconds>350</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <!-- Small Connectors -->
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>T1_VTTR_BP_STOR_C4</SubtypeId>
+      </Id>
+      <DisplayName>{LOC:DisplayName_T1_VTTR_STOR_C4}</DisplayName>
+      <Icon>Textures\GUI\Icons\AQD_research_storage.dds</Icon>
+      <Prerequisites>
+        <Item Amount="30" TypeId="Component" SubtypeId="AQD_Comp_ResearchMaterial" />
+        <Item Amount="1" TypeId="Component" SubtypeId="VTTR_Tech_STOR_C3" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1" TypeId="Component" SubtypeId="VTTR_Tech_STOR_C4" />
+      </Results>
+      <BaseProductionTimeInSeconds>500</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <!-- Large Connectors -->
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>T2_VTTR_BP_STOR_C5</SubtypeId>
+      </Id>
+      <DisplayName>{LOC:DisplayName_T2_VTTR_STOR_C5}</DisplayName>
+      <Icon>Textures\GUI\Icons\AQD_research_storage.dds</Icon>
+      <Prerequisites>
+        <Item Amount="35" TypeId="Component" SubtypeId="AQD_Comp_EnhancedResearchMaterial" />
+        <Item Amount="1" TypeId="Component" SubtypeId="VTTR_Tech_STOR_C4" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1" TypeId="Component" SubtypeId="VTTR_Tech_STOR_C5" />
+      </Results>
+      <BaseProductionTimeInSeconds>650</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <!-- Large Cargo -->
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>T2_VTTR_BP_STOR_C6</SubtypeId>
+      </Id>
+      <DisplayName>{LOC:DisplayName_T2_VTTR_STOR_C6}</DisplayName>
+      <Icon>Textures\GUI\Icons\AQD_research_storage.dds</Icon>
+      <Prerequisites>
+        <Item Amount="60" TypeId="Component" SubtypeId="AQD_Comp_EnhancedResearchMaterial" />
+        <Item Amount="1" TypeId="Component" SubtypeId="VTTR_Tech_STOR_C5" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1" TypeId="Component" SubtypeId="VTTR_Tech_STOR_C6" />
+      </Results>
+      <BaseProductionTimeInSeconds>800</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <!-- Armor -->
+    <!-- Interior Walls -->
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>T1_VTTR_BP_ARM_I1</SubtypeId>
+      </Id>
+      <DisplayName>{LOC:DisplayName_T1_VTTR_BP_ARM_I1}</DisplayName>
+      <Icon>Textures\GUI\Icons\AQD_research_armor.dds</Icon>
+      <Prerequisites>
+        <Item Amount="10" TypeId="Component" SubtypeId="AQD_Comp_ResearchMaterial" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1" TypeId="Component" SubtypeId="VTTR_Tech_ARM_I1" />
+      </Results>
+      <BaseProductionTimeInSeconds>200</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <!-- Pillars -->
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>T1_VTTR_BP_ARM_I2</SubtypeId>
+      </Id>
+      <DisplayName>{LOC:DisplayName_T1_VTTR_BP_ARM_I2}</DisplayName>
+      <Icon>Textures\GUI\Icons\AQD_research_armor.dds</Icon>
+      <Prerequisites>
+        <Item Amount="10" TypeId="Component" SubtypeId="AQD_Comp_ResearchMaterial" />
+        <Item Amount="1" TypeId="Component" SubtypeId="VTTR_Tech_ARM_I1" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1" TypeId="Component" SubtypeId="VTTR_Tech_ARM_I2" />
+      </Results>
+      <BaseProductionTimeInSeconds>200</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <!-- Floor -->
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>T1_VTTR_BP_ARM_I3</SubtypeId>
+      </Id>
+      <DisplayName>{LOC:DisplayName_T1_VTTR_BP_ARM_I3}</DisplayName>
+      <Icon>Textures\GUI\Icons\AQD_research_armor.dds</Icon>
+      <Prerequisites>
+        <Item Amount="10" TypeId="Component" SubtypeId="AQD_Comp_ResearchMaterial" />
+        <Item Amount="1" TypeId="Component" SubtypeId="VTTR_Tech_ARM_I2" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1" TypeId="Component" SubtypeId="VTTR_Tech_ARM_I3" />
+      </Results>
+      <BaseProductionTimeInSeconds>200</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <!-- Heavy Armor -->
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>T2_VTTR_BP_ARM_A1</SubtypeId>
+      </Id>
+      <DisplayName>{LOC:DisplayName_T2_VTTR_BP_ARM_A1}</DisplayName>
+      <Icon>Textures\GUI\Icons\AQD_research_armor.dds</Icon>
+      <Prerequisites>
+        <Item Amount="25" TypeId="Component" SubtypeId="AQD_Comp_EnhancedResearchMaterial" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1" TypeId="Component" SubtypeId="VTTR_Tech_ARM_A1" />
+      </Results>
+      <BaseProductionTimeInSeconds>600</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <!-- Sensors -->
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>T1_VTTR_BP_AUT_A1</SubtypeId>
+      </Id>
+      <DisplayName>{LOC:DisplayName_T1_VTTR_BP_AUT_A1}</DisplayName>
+      <Icon>Textures\GUI\Icons\AQD_research_automation.dds</Icon>
+      <Prerequisites>
+        <Item Amount="40" TypeId="Component" SubtypeId="AQD_Comp_ResearchMaterial" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1" TypeId="Component" SubtypeId="VTTR_Tech_AUT_A1" />
+      </Results>
+      <BaseProductionTimeInSeconds>1200</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <!-- Timers -->
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>T1_VTTR_BP_AUT_A2</SubtypeId>
+      </Id>
+      <DisplayName>{LOC:DisplayName_T1_VTTR_BP_AUT_A2}</DisplayName>
+      <Icon>Textures\GUI\Icons\AQD_research_automation.dds</Icon>
+      <Prerequisites>
+        <Item Amount="50" TypeId="Component" SubtypeId="AQD_Comp_ResearchMaterial" />
+        <Item Amount="1" TypeId="Component" SubtypeId="VTTR_Tech_AUT_A1" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1" TypeId="Component" SubtypeId="VTTR_Tech_AUT_A2" />
+      </Results>
+      <BaseProductionTimeInSeconds>1200</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <!-- Event Controllers -->
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>T2_VTTR_BP_AUT_A3</SubtypeId>
+      </Id>
+      <DisplayName>{LOC:DisplayName_T2_VTTR_BP_AUT_A3}</DisplayName>
+      <Icon>Textures\GUI\Icons\AQD_research_automation.dds</Icon>
+      <Prerequisites>
+        <Item Amount="50" TypeId="Component" SubtypeId="AQD_Comp_EnhancedResearchMaterial" />
+        <Item Amount="1" TypeId="Component" SubtypeId="VTTR_Tech_AUT_A2" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1" TypeId="Component" SubtypeId="VTTR_Tech_AUT_A3" />
+      </Results>
+      <BaseProductionTimeInSeconds>1200</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <!-- Programmable blocks -->
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>T2_VTTR_BP_AUT_A4</SubtypeId>
+      </Id>
+      <DisplayName>{LOC:DisplayName_T2_VTTR_BP_AUT_A4}</DisplayName>
+      <Icon>Textures\GUI\Icons\AQD_research_automation.dds</Icon>
+      <Prerequisites>
+        <Item Amount="50" TypeId="Component" SubtypeId="AQD_Comp_EnhancedResearchMaterial" />
+        <Item Amount="1" TypeId="Component" SubtypeId="VTTR_Tech_AUT_A3" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1" TypeId="Component" SubtypeId="VTTR_Tech_AUT_A4" />
+      </Results>
+      <BaseProductionTimeInSeconds>1200</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <!-- Cargo Sorters -->
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>T2_VTTR_BP_AUT_C1</SubtypeId>
+      </Id>
+      <DisplayName>{LOC:DisplayName_T2_VTTR_BP_AUT_C1}</DisplayName>
+      <Icon>Textures\GUI\Icons\AQD_research_automation.dds</Icon>
+      <Prerequisites>
+        <Item Amount="40" TypeId="Component" SubtypeId="AQD_Comp_EnhancedResearchMaterial" />
+        <Item Amount="1" TypeId="Component" SubtypeId="VTTR_Tech_STOR_C6" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1" TypeId="Component" SubtypeId="VTTR_Tech_AUT_C1" />
+      </Results>
+      <BaseProductionTimeInSeconds>1200</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <!-- Remote control and broadcast -->
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>T2_VTTR_BP_AUT_D1</SubtypeId>
+      </Id>
+      <DisplayName>{LOC:DisplayName_T2_VTTR_BP_AUT_D1}</DisplayName>
+      <Icon>Textures\GUI\Icons\AQD_research_automation.dds</Icon>
+      <Prerequisites>
+        <Item Amount="40" TypeId="Component" SubtypeId="AQD_Comp_EnhancedResearchMaterial" />
+        <Item Amount="1" TypeId="Component" SubtypeId="VTTR_Tech_AUT_A4" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1" TypeId="Component" SubtypeId="VTTR_Tech_AUT_D1" />
+      </Results>
+      <BaseProductionTimeInSeconds>1200</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <!-- AI Blocks -->
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>T3_VTTR_BP_AUT_D2</SubtypeId>
+      </Id>
+      <DisplayName>{LOC:DisplayName_T3_VTTR_BP_AUT_D2}</DisplayName>
+      <Icon>Textures\GUI\Icons\AQD_research_automation.dds</Icon>
+      <Prerequisites>
+        <Item Amount="40" TypeId="Component" SubtypeId="AQD_Comp_AdvancedResearchMaterial" />
+        <Item Amount="1" TypeId="Component" SubtypeId="VTTR_Tech_AUT_D1" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1" TypeId="Component" SubtypeId="VTTR_Tech_AUT_D2" />
+      </Results>
+      <BaseProductionTimeInSeconds>2400</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>T1_VTTR_BP_LOC_W1</SubtypeId>
+      </Id>
+      <DisplayName>{LOC:DisplayName_T1_VTTR_BP_LOC_W1}</DisplayName>
+      <Icon>Textures\GUI\Icons\AQD_research_locomotion.dds</Icon>
+      <Prerequisites>
+        <Item Amount="25" TypeId="Component" SubtypeId="AQD_Comp_ResearchMaterial" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1" TypeId="Component" SubtypeId="VTTR_Tech_LOC_W1" />
+      </Results>
+      <BaseProductionTimeInSeconds>360</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>T1_VTTR_BP_LOC_W2</SubtypeId>
+      </Id>
+      <DisplayName>{LOC:DisplayName_T1_VTTR_BP_LOC_W2}</DisplayName>
+      <Icon>Textures\GUI\Icons\AQD_research_locomotion.dds</Icon>
+      <Prerequisites>
+        <Item Amount="45" TypeId="Component" SubtypeId="AQD_Comp_ResearchMaterial" />
+        <Item Amount="1" TypeId="Component" SubtypeId="VTTR_Tech_LOC_W1" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1" TypeId="Component" SubtypeId="VTTR_Tech_LOC_W2" />
+      </Results>
+      <BaseProductionTimeInSeconds>720</BaseProductionTimeInSeconds>
+    </Blueprint>
+    
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>T2_VTTR_BP_LOC_W2</SubtypeId>
+      </Id>
+      <DisplayName>{LOC:DisplayName_T2_VTTR_BP_LOC_W3}</DisplayName>
+      <Icon>Textures\GUI\Icons\AQD_research_locomotion.dds</Icon>
+      <Prerequisites>
+        <Item Amount="50" TypeId="Component" SubtypeId="AQD_Comp_EnhancedResearchMaterial" />
+        <Item Amount="1" TypeId="Component" SubtypeId="VTTR_Tech_LOC_W2" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1" TypeId="Component" SubtypeId="VTTR_Tech_LOC_W3" />
+      </Results>
+      <BaseProductionTimeInSeconds>1200</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>T1_VTTR_BP_STOR_H1</SubtypeId>
+      </Id>
+      <DisplayName>{LOC:DisplayName_T1_VTTR_BP_STOR_H1}</DisplayName>
+      <Icon>Textures\GUI\Icons\AQD_research_storage.dds</Icon>
+      <Prerequisites>
+        <Item Amount="60" TypeId="Component" SubtypeId="AQD_Comp_ResearchMaterial" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1" TypeId="Component" SubtypeId="VTTR_Tech_STOR_H1" />
+      </Results>
+      <BaseProductionTimeInSeconds>1800</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>T1_VTTR_BP_STOR_H2</SubtypeId>
+      </Id>
+      <DisplayName>{LOC:DisplayName_T2_VTTR_BP_STOR_H2}</DisplayName>
+      <Icon>Textures\GUI\Icons\AQD_research_storage.dds</Icon>
+      <Prerequisites>
+        <Item Amount="80" TypeId="Component" SubtypeId="AQD_Comp_ResearchMaterial" />
+        <Item Amount="1" TypeId="Component" SubtypeId="VTTR_Tech_STOR_H1" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1" TypeId="Component" SubtypeId="VTTR_Tech_STOR_H2" />
+      </Results>
+      <BaseProductionTimeInSeconds>2400</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+  </Blueprints>
+</Definitions>
