@@ -2,10 +2,10 @@ name: Build and Release Mod
 
 on:
   release:
-    types: [published]  # Runs when a new release is published
+    types: [published]  # Trigger only when a new release is published
 
 permissions:
-  contents: write  # Required to upload release assets
+  contents: write  # Needed to upload release assets
 
 jobs:
   build:
@@ -16,24 +16,26 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      # --- 2. Create the .build folder respecting .gitignore ---
-      - name: Prepare build folder
+      # --- 2. Prepare build files respecting .gitignore ---
+      - name: Collect mod files
         run: |
-          echo "Creating .build folder..."
-          mkdir .build
-          # Copy only tracked + unignored files
+          echo "Collecting files for release..."
+          mkdir package
+          # Copy only tracked and unignored files
           git ls-files --cached --others --exclude-standard | \
-            grep -v "^\.git/" | grep -v "^build.ps1$" | while read file; do
-              mkdir -p "$(dirname ".build/$file")"
-              cp "$file" ".build/$file"
+            grep -v "^\.git/" | grep -v "^\.github/" | grep -v "^build.ps1$" | while read file; do
+              mkdir -p "package/$(dirname "$file")"
+              cp "$file" "package/$file"
             done
 
-      # --- 3. Create a zip archive of the build output ---
+      # --- 3. Create ZIP archive (contents at root, no .build folder) ---
       - name: Create ZIP archive
         run: |
-          zip -r "VanillaResearchTree-${{ github.event.release.tag_name }}.zip" .build
+          cd package
+          zip -r "../VanillaResearchTree-${{ github.event.release.tag_name }}.zip" .
+          cd ..
 
-      # --- 4. Upload the zip file as a release asset ---
+      # --- 4. Upload the zip as a release asset ---
       - name: Upload release asset
         uses: softprops/action-gh-release@v2
         with:
