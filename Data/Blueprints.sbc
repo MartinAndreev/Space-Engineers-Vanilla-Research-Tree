@@ -1082,7 +1082,7 @@
       </Results>
       <BaseProductionTimeInSeconds>4200</BaseProductionTimeInSeconds>
     </Blueprint>
-    
+
     <Blueprint>
       <Id>
         <TypeId>BlueprintDefinition</TypeId>

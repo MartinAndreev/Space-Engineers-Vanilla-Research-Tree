@@ -1513,5 +1513,26 @@
       <DropProbability>0.25</DropProbability>
       <Health>10</Health>
     </Component>
+
+    <Component>
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>VTTR_Tech_DEF_L1</SubtypeId>
+      </Id>
+      <DisplayName>{LOC:DisplayName_VTTR_Tech_DEF_L1}</DisplayName>
+      <Icon>Textures\GUI\Icons\component\research_blueprint_component.dds</Icon>
+      <Size>
+        <X>0.1</X>
+        <Y>0.1</Y>
+        <Z>0.1</Z>
+      </Size>
+      <Mass>1</Mass>
+      <Volume>1</Volume>
+      <Model>Models\Components\research_blueprint_component.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>10</MaxIntegrity>
+      <DropProbability>0.25</DropProbability>
+      <Health>10</Health>
+    </Component>
   </Components>
 </Definitions>
