@@ -1,0 +1,42 @@
+name: Build and Release Mod
+
+on:
+  release:
+    types: [published]  # Runs when a new release is published
+
+permissions:
+  contents: write  # Required to upload release assets
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      # --- 1. Checkout the repository ---
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # --- 2. Create the .build folder respecting .gitignore ---
+      - name: Prepare build folder
+        run: |
+          echo "Creating .build folder..."
+          mkdir .build
+          # Copy only tracked + unignored files
+          git ls-files --cached --others --exclude-standard | \
+            grep -v "^\.git/" | grep -v "^build.ps1$" | while read file; do
+              mkdir -p "$(dirname ".build/$file")"
+              cp "$file" ".build/$file"
+            done
+
+      # --- 3. Create a zip archive of the build output ---
+      - name: Create ZIP archive
+        run: |
+          zip -r "VanillaResearchTree-${{ github.event.release.tag_name }}.zip" .build
+
+      # --- 4. Upload the zip file as a release asset ---
+      - name: Upload release asset
+        uses: softprops/action-gh-release@v2
+        with:
+          files: "VanillaResearchTree-${{ github.event.release.tag_name }}.zip"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

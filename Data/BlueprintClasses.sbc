@@ -30,10 +30,18 @@
     <!-- Industrial -->
     <Entry Class="AQD_BPC_ResearchLab_T1" BlueprintSubtypeId="T1_VTTR_BP_IND_A1" />
 
+    <!-- Default -->
+    <Entry Class="AQD_BPC_ResearchLab_T1" BlueprintSubtypeId="T1_VTTR_BP_DEF_T1" />
+    <Entry Class="AQD_BPC_ResearchLab_T1" BlueprintSubtypeId="T1_VTTR_BP_DEF_T2" />
+    <Entry Class="AQD_BPC_ResearchLab_T1" BlueprintSubtypeId="T1_VTTR_BP_IND_F1" />
+    <Entry Class="AQD_BPC_ResearchLab_T1" BlueprintSubtypeId="T1_VTTR_BP_UTIL_D1" />
+    <Entry Class="AQD_BPC_ResearchLab_T1" BlueprintSubtypeId="T1_VTTR_BP_UTIL_A1" />
+
     <!-- Tier 2 -->
     <!-- Armor -->
     <Entry Class="AQD_BPC_ResearchLab_T2" BlueprintSubtypeId="T2_VTTR_BP_ARM_A1" />
     <Entry Class="AQD_BPC_ResearchLab_T2" BlueprintSubtypeId="T2_VTTR_BP_ARM_W2" />
+    <Entry Class="AQD_BPC_ResearchLab_T2" BlueprintSubtypeId="T2_VTTR_BP_ARM_I4" />
 
     <!-- Storage -->
     <Entry Class="AQD_BPC_ResearchLab_T2" BlueprintSubtypeId="T2_VTTR_BP_STOR_C5" />
@@ -48,6 +56,8 @@
 
     <!-- Locomotion -->
     <Entry Class="AQD_BPC_ResearchLab_T2" BlueprintSubtypeId="T2_VTTR_BP_LOC_W2" />
+    <Entry Class="AQD_BPC_ResearchLab_T2" BlueprintSubtypeId="T2_VTTR_BP_LOC_T1" />
+    <Entry Class="AQD_BPC_ResearchLab_T2" BlueprintSubtypeId="T2_VTTR_BP_LOC_T2" />
 
     <!-- Power -->
     <Entry Class="AQD_BPC_ResearchLab_T2" BlueprintSubtypeId="T2_VTTR_BP_PWR_H1" />
@@ -55,11 +65,27 @@
     <!-- Utilities -->
     <Entry Class="AQD_BPC_ResearchLab_T2" BlueprintSubtypeId="T2_VTTR_BP_UTIL_C1" />
     <Entry Class="AQD_BPC_ResearchLab_T2" BlueprintSubtypeId="T2_VTTR_BP_UTIL_O1" />
+    <Entry Class="AQD_BPC_ResearchLab_T2" BlueprintSubtypeId="T2_VTTR_BP_UTIL_ST1" />
+    <Entry Class="AQD_BPC_ResearchLab_T2" BlueprintSubtypeId="T2_VTTR_BP_UTIL_R1" />
+    <Entry Class="AQD_BPC_ResearchLab_T2" BlueprintSubtypeId="T2_VTTR_BP_UTIL_R2" />
+    <Entry Class="AQD_BPC_ResearchLab_T2" BlueprintSubtypeId="T2_VTTR_BP_UTIL_R3" />
 
     <!-- Industrial -->
     <Entry Class="AQD_BPC_ResearchLab_T2" BlueprintSubtypeId="T2_VTTR_BP_IND_R1" />
 
+    <!-- Default -->
+    <Entry Class="AQD_BPC_ResearchLab_T2" BlueprintSubtypeId="T2_VTTR_BP_DEF_T3" />
+    <Entry Class="AQD_BPC_ResearchLab_T2" BlueprintSubtypeId="T2_VTTR_BP_IND_F2" />
+
+    <!-- Combat -->
+    <Entry Class="AQD_BPC_ResearchLab_T2" BlueprintSubtypeId="T2_VTTR_BP_COM_W1" />
+    <Entry Class="AQD_BPC_ResearchLab_T2" BlueprintSubtypeId="T2_VTTR_BP_COM_W2" />
+    <Entry Class="AQD_BPC_ResearchLab_T2" BlueprintSubtypeId="T2_VTTR_BP_COM_W3" />
+
     <!-- Tier 3 -->
+    <!-- Storage -->
+    <Entry Class="AQD_BPC_ResearchLab_T3" BlueprintSubtypeId="T3_VTTR_BP_STOR_C7" />
+
     <!-- Automation -->
     <Entry Class="AQD_BPC_ResearchLab_T3" BlueprintSubtypeId="T3_VTTR_BP_AUT_D2" />
 
@@ -69,11 +95,44 @@
     <!-- Utilities -->
     <Entry Class="AQD_BPC_ResearchLab_T3" BlueprintSubtypeId="T3_VTTR_BP_UTIL_H1" />
     <Entry Class="AQD_BPC_ResearchLab_T3" BlueprintSubtypeId="T3_VTTR_BP_UTIL_O2" />
+    <Entry Class="AQD_BPC_ResearchLab_T3" BlueprintSubtypeId="T3_VTTR_BP_DEF_L1" />
+    <Entry Class="AQD_BPC_ResearchLab_T3" BlueprintSubtypeId="T3_VTTR_BP_UTIL_A2" />
+    <Entry Class="AQD_BPC_ResearchLab_T3" BlueprintSubtypeId="T3_VTTR_BP_UTIL_P1" />
+
+    <!-- Default -->
+    <Entry Class="AQD_BPC_ResearchLab_T3" BlueprintSubtypeId="T3_VTTR_BP_DEF_M1" />
+    <Entry Class="AQD_BPC_ResearchLab_T3" BlueprintSubtypeId="T3_VTTR_BP_DEF_C1" />
 
     <!-- Industrial -->
     <Entry Class="AQD_BPC_ResearchLab_T3" BlueprintSubtypeId="T3_VTTR_BP_IND_R2" />
     <Entry Class="AQD_BPC_ResearchLab_T3" BlueprintSubtypeId="T3_VTTR_BP_IND_R3" />
     <Entry Class="AQD_BPC_ResearchLab_T3" BlueprintSubtypeId="T3_VTTR_BP_IND_R4" />
+    <Entry Class="AQD_BPC_ResearchLab_T3" BlueprintSubtypeId="T3_VTTR_BP_UTIL_ST2" />
+    <Entry Class="AQD_BPC_ResearchLab_T3" BlueprintSubtypeId="T3_VTTR_BP_UTIL_ST3" />
+
+    <!-- Combat -->
+    <Entry Class="AQD_BPC_ResearchLab_T3" BlueprintSubtypeId="T3_VTTR_BP_COM_W4" />
+    <Entry Class="AQD_BPC_ResearchLab_T3" BlueprintSubtypeId="T3_VTTR_BP_COM_W5" />
+    <Entry Class="AQD_BPC_ResearchLab_T3" BlueprintSubtypeId="T3_VTTR_BP_COM_W6" />
+
+    <!-- Locomotion -->
+    <Entry Class="AQD_BPC_ResearchLab_T3" BlueprintSubtypeId="T3_VTTR_BP_LOC_T3" />
+
+    <!-- Tier 4 -->
+    <!-- Default -->
+    <Entry Class="AQD_BPC_ResearchLab_T4" BlueprintSubtypeId="T4_VTTR_BP_DEF_M2" />
+    <Entry Class="AQD_BPC_ResearchLab_T4" BlueprintSubtypeId="T4_VTTR_BP_DEF_C2" />
+    <Entry Class="AQD_BPC_ResearchLab_T4" BlueprintSubtypeId="T4_VTTR_BP_DEF_S1" />
+
+    <!-- Combat -->
+    <Entry Class="AQD_BPC_ResearchLab_T4" BlueprintSubtypeId="T4_VTTR_BP_COM_W7" />
+    <Entry Class="AQD_BPC_ResearchLab_T4" BlueprintSubtypeId="T4_VTTR_BP_COM_W8" />
+
+    <!-- Locomotion -->
+    <Entry Class="AQD_BPC_ResearchLab_T4" BlueprintSubtypeId="T4_VTTR_BP_LOC_T4" />
+
+    <!-- Utilities -->
+    <Entry Class="AQD_BPC_ResearchLab_T4" BlueprintSubtypeId="T4_VTTR_BP_UTIL_A3" />
   </BlueprintClassEntries>
   <BlueprintClasses>
     <Class>

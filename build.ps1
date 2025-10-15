@@ -27,7 +27,7 @@ function Run-Build {
 
     # Exclude build.ps1 and anything inside .git
     $files = $files | Where-Object {
-        ($_ -ne "build.ps1") -and ($_ -notlike ".git/*")
+        ($_ -ne "build.ps1") -and ($_ -notlike ".git/*") -and ($_ -notlike ".github/*")
     }
 
     foreach ($file in $files) {

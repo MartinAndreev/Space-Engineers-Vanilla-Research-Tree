@@ -138,6 +138,10 @@
         <value>Research Floor</value>
         <comment/>
     </data>
+    <data name="DisplayName_T2_VTTR_BP_ARM_I4" xml:space="preserve">
+        <value>Research Enclosed Passages</value>
+        <comment/>
+    </data>
     <data name="DisplayName_T1_VTTR_BP_AUT_A1" xml:space="preserve">
         <value>Research Sensor Equipment</value>
         <comment/>
@@ -202,6 +206,10 @@
         <value>Upscaled Cargo Storage</value>
         <comment/>
     </data>
+    <data name="DisplayName_T3_VTTR_STOR_C7" xml:space="preserve">
+        <value>Reinforced Cargo Transfer</value>
+        <comment/>
+    </data>
     <data name="DisplayName_T3_VTTR_BP_AUT_D2" xml:space="preserve">
         <value>Research Drone Automation</value>
         <comment/>
@@ -236,6 +244,10 @@
     </data>
     <data name="DisplayName_VTTR_Tech_ARM_I3" xml:space="preserve">
         <value>Floor Schematic</value>
+        <comment/>
+    </data>
+    <data name="DisplayName_VTTR_Tech_ARM_I4" xml:space="preserve">
+        <value>Enclosed Passages Schematic</value>
         <comment/>
     </data>
     <data name="DisplayName_VTTR_Tech_AUT_A1" xml:space="preserve">
@@ -305,6 +317,10 @@
         <value>Upscaled Cargo Storage Schematic</value>
         <comment/>
     </data>
+    <data name="DisplayName_VTTR_Tech_STOR_C7" xml:space="preserve">
+        <value>Reinforced Cargo Transfer Schematic</value>
+        <comment/>
+    </data>
     <data name="DisplayName_T1_VTTR_BP_PWR_B1" xml:space="preserve">
         <value>Research Power Storage</value>
         <comment/>
@@ -342,11 +358,19 @@
         <comment/>
     </data>
     <data name="DisplayName_T1_VTTR_BP_STOR_H1" xml:space="preserve">
-        <value>Research Hydrogen Storage</value>
+        <value>Research Gas Storage</value>
         <comment/>
     </data>
     <data name="DisplayName_VTTR_Tech_STOR_H1" xml:space="preserve">
-        <value>Hydrogen Storage Schematic</value>
+        <value>Gas Storage Schematic</value>
+        <comment/>
+    </data>
+    <data name="DisplayName_T2_VTTR_BP_STOR_H2" xml:space="preserve">
+        <value>Research Upscaled Gas Storage</value>
+        <comment/>
+    </data>
+    <data name="DisplayName_VTTR_Tech_STOR_H2" xml:space="preserve">
+        <value>Upscaled Gas Storage Schematic</value>
         <comment/>
     </data>
     <data name="DisplayName_T3_VTTR_BP_UTIL_H1" xml:space="preserve">
@@ -419,6 +443,278 @@
     </data>
     <data name="DisplayName_VTTR_Tech_IND_R4" xml:space="preserve">
         <value>Yield Improvements Schematic</value>
+        <comment/>
+    </data>
+    <data name="DisplayName_T2_VTTR_BP_UTIL_ST1" xml:space="preserve">
+        <value>Research Upscaled Mining</value>
+        <comment/>
+    </data>
+    <data name="DisplayName_VTTR_Tech_UTIL_ST1" xml:space="preserve">
+        <value>Upscaled Mining Schematic</value>
+        <comment/>
+    </data>
+    <data name="DisplayName_T3_VTTR_BP_UTIL_ST2" xml:space="preserve">
+        <value>Research Upscaled Welding</value>
+        <comment/>
+    </data>
+    <data name="DisplayName_VTTR_Tech_UTIL_ST2" xml:space="preserve">
+        <value>Upscaled Welding Schematic</value>
+        <comment/>
+    </data>
+    <data name="DisplayName_T3_VTTR_BP_UTIL_ST3" xml:space="preserve">
+        <value>Research Upscaled Grinding</value>
+        <comment/>
+    </data>
+    <data name="DisplayName_VTTR_Tech_UTIL_ST3" xml:space="preserve">
+        <value>Upscaled Grinding Schematic</value>
+        <comment/>
+    </data>
+    <data name="DisplayName_T3_VTTR_BP_DEF_M1" xml:space="preserve">
+        <value>Research Mass Generation</value>
+        <comment/>
+    </data>
+    <data name="DisplayName_VTTR_Tech_DEF_M1" xml:space="preserve">
+        <value>Mass Generation Schematic</value>
+        <comment/>
+    </data>
+    <data name="DisplayName_T4_VTTR_BP_DEF_M2" xml:space="preserve">
+        <value>Research Gravity Generation</value>
+        <comment/>
+    </data>
+    <data name="DisplayName_VTTR_Tech_DEF_M2" xml:space="preserve">
+        <value>Gravity Generation Schematic</value>
+        <comment/>
+    </data>
+    <data name="DisplayName_T3_VTTR_BP_DEF_C1" xml:space="preserve">
+        <value>Research Cryo Sleep</value>
+        <comment/>
+    </data>
+    <data name="DisplayName_VTTR_Tech_DEF_C1" xml:space="preserve">
+        <value>Cryo Sleep Schematic</value>
+        <comment/>
+    </data>
+     <data name="DisplayName_T4_VTTR_BP_DEF_C2" xml:space="preserve">
+        <value>Research FTL Travel</value>
+        <comment/>
+    </data>
+    <data name="DisplayName_VTTR_Tech_DEF_C2" xml:space="preserve">
+        <value>FTL Travel Schematic</value>
+        <comment/>
+    </data>
+    <data name="DisplayName_T4_VTTR_BP_DEF_S1" xml:space="preserve">
+        <value>Research Field Generation</value>
+        <comment/>
+    </data>
+    <data name="DisplayName_VTTR_Tech_DEF_S1" xml:space="preserve">
+        <value>Field Generation Schematic</value>
+        <comment/>
+    </data>
+    <data name="DisplayName_T1_VTTR_BP_DEF_T1" xml:space="preserve">
+        <value>Research Nonviolent Contact Machinery</value>
+        <comment/>
+    </data>
+    <data name="DisplayName_VTTR_Tech_DEF_T1" xml:space="preserve">
+        <value>Nonviolent Contact Machinery Schematic</value>
+        <comment/>
+    </data>
+    <data name="DisplayName_T1_VTTR_BP_DEF_T2" xml:space="preserve">
+        <value>Research Store Uplink Schematic</value>
+        <comment/>
+    </data>
+    <data name="DisplayName_VTTR_Tech_DEF_T2" xml:space="preserve">
+        <value>Store Uplink Schematic</value>
+        <comment/>
+    </data>
+    <data name="DisplayName_T2_VTTR_BP_DEF_T3" xml:space="preserve">
+        <value>Research Contract Uplink Schematic</value>
+        <comment/>
+    </data>
+    <data name="DisplayName_VTTR_Tech_DEF_T3" xml:space="preserve">
+        <value>Contract Uplink Schematic</value>
+        <comment/>
+    </data>
+    <data name="DisplayName_T1_VTTR_BP_IND_F1" xml:space="preserve">
+        <value>Research Basic Food Production</value>
+        <comment/>
+    </data>
+    <data name="DisplayName_VTTR_Tech_IND_F1" xml:space="preserve">
+        <value>Basic Food Production Schematic</value>
+        <comment/>
+    </data>
+    <data name="DisplayName_T2_VTTR_BP_IND_F2" xml:space="preserve">
+        <value>Research Advanced Food Production</value>
+        <comment/>
+    </data>
+    <data name="DisplayName_VTTR_Tech_IND_F2" xml:space="preserve">
+        <value>Advanced Food Production Schematic</value>
+        <comment/>
+    </data>
+    <data name="DisplayName_T2_VTTR_BP_COM_W1" xml:space="preserve">
+        <value>Research Targeting Disruption</value>
+        <comment/>
+    </data>
+    <data name="DisplayName_VTTR_Tech_COM_W1" xml:space="preserve">
+        <value>Targeting Disruption Schematic</value>
+        <comment/>
+    </data>
+    <data name="DisplayName_T2_VTTR_BP_COM_W2" xml:space="preserve">
+        <value>Research Basic Small Caliber Weaponry</value>
+        <comment/>
+    </data>
+    <data name="DisplayName_VTTR_Tech_COM_W2" xml:space="preserve">
+        <value>Basic Small Caliber Weaponry Schematic</value>
+        <comment/>
+    </data>
+    <data name="DisplayName_T2_VTTR_BP_COM_W3" xml:space="preserve">
+        <value>Research Advanced Small Caliber Weaponry</value>
+        <comment/>
+    </data>
+    <data name="DisplayName_VTTR_Tech_COM_W3" xml:space="preserve">
+        <value>Advanced Small Caliber Weaponry Schematic</value>
+        <comment/>
+    </data>
+    <data name="DisplayName_T3_VTTR_BP_COM_W4" xml:space="preserve">
+        <value>Research Basic Medium Caliber Weaponry</value>
+        <comment/>
+    </data>
+    <data name="DisplayName_VTTR_Tech_COM_W4" xml:space="preserve">
+        <value>Basic Medium Caliber Weaponry Schematic</value>
+        <comment/>
+    </data>
+    <data name="DisplayName_T3_VTTR_BP_COM_W5" xml:space="preserve">
+        <value>Research Rocket Weaponry</value>
+        <comment/>
+    </data>
+    <data name="DisplayName_VTTR_Tech_COM_W5" xml:space="preserve">
+        <value>Rocket Weaponry Schematic</value>
+        <comment/>
+    </data>
+    <data name="DisplayName_T3_VTTR_BP_COM_W6" xml:space="preserve">
+        <value>Research Large Caliber Weaponry</value>
+        <comment/>
+    </data>
+    <data name="DisplayName_VTTR_Tech_COM_W6" xml:space="preserve">
+        <value>Large Caliber Weaponry Schematic</value>
+        <comment/>
+    </data>
+    <data name="DisplayName_T4_VTTR_BP_COM_W7" xml:space="preserve">
+        <value>Research Artillery Weaponry</value>
+        <comment/>
+    </data>
+    <data name="DisplayName_VTTR_Tech_COM_W7" xml:space="preserve">
+        <value>Artillery Weaponry Schematic</value>
+        <comment/>
+    </data>
+    <data name="DisplayName_T4_VTTR_BP_COM_W8" xml:space="preserve">
+        <value>Research Railgun Weaponry</value>
+        <comment/>
+    </data>
+    <data name="DisplayName_VTTR_Tech_COM_W8" xml:space="preserve">
+        <value>Railgun Weaponry Schematic</value>
+        <comment/>
+    </data>
+    <data name="DisplayName_T3_VTTR_BP_DEF_L1" xml:space="preserve">
+        <value>Research Medical Lab</value>
+        <comment/>
+    </data>
+    <data name="DisplayName_VTTR_Tech_DEF_L1" xml:space="preserve">
+        <value>Medical Lab Schematic</value>
+        <comment/>
+    </data>
+    <data name="DisplayName_T2_VTTR_BP_LOC_T1" xml:space="preserve">
+        <value>Research Fueled Thrusters</value>
+        <comment/>
+    </data>
+    <data name="DisplayName_VTTR_Tech_LOC_T1" xml:space="preserve">
+        <value>Fueled Thrusters Schematic</value>
+        <comment/>
+    </data>
+    <data name="DisplayName_T2_VTTR_BP_LOC_T2" xml:space="preserve">
+        <value>Research Propelled Atmospheric Thrusters</value>
+        <comment/>
+    </data>
+    <data name="DisplayName_VTTR_Tech_LOC_T2" xml:space="preserve">
+        <value>Propelled Atmospheric Thrusters Schematic</value>
+        <comment/>
+    </data>
+    <data name="DisplayName_T3_VTTR_BP_LOC_T3" xml:space="preserve">
+        <value>Research Jet Engines</value>
+        <comment/>
+    </data>
+    <data name="DisplayName_VTTR_Tech_LOC_T3" xml:space="preserve">
+        <value>Jet Engines Schematic</value>
+        <comment/>
+    </data>
+    <data name="DisplayName_T4_VTTR_BP_LOC_T4" xml:space="preserve">
+        <value>Research Photon Plasma Thrusters</value>
+        <comment/>
+    </data>
+    <data name="DisplayName_VTTR_Tech_LOC_T4" xml:space="preserve">
+        <value>Photon Plasma Thrusters Schematic</value>
+        <comment/>
+    </data>
+    <data name="DisplayName_T1_VTTR_BP_UTIL_D1" xml:space="preserve">
+        <value>Research Ore Detection</value>
+        <comment/>
+    </data>
+    <data name="DisplayName_VTTR_Tech_UTIL_D1" xml:space="preserve">
+        <value>Ore Detection Schematic</value>
+        <comment/>
+    </data>
+    <data name="DisplayName_T1_VTTR_BP_UTIL_A1" xml:space="preserve">
+        <value>Research Positional Markers</value>
+        <comment/>
+    </data>
+    <data name="DisplayName_VTTR_Tech_UTIL_A1" xml:space="preserve">
+        <value>Positional Markers Schematic</value>
+        <comment/>
+    </data>
+    <data name="DisplayName_T3_VTTR_BP_UTIL_A2" xml:space="preserve">
+        <value>Research Long-Range Communications</value>
+        <comment/>
+    </data>
+    <data name="DisplayName_VTTR_Tech_UTIL_A2" xml:space="preserve">
+        <value>Long-Range Communications Schematic</value>
+        <comment/>
+    </data>
+    <data name="DisplayName_T4_VTTR_BP_UTIL_A3" xml:space="preserve">
+        <value>Research Orbital Communications</value>
+        <comment/>
+    </data>
+    <data name="DisplayName_VTTR_Tech_UTIL_A3" xml:space="preserve">
+        <value>Orbital Communications Schematic</value>
+        <comment/>
+    </data>
+    <data name="DisplayName_T3_VTTR_BP_UTIL_P1" xml:space="preserve">
+        <value>Research Projector</value>
+        <comment/>
+    </data>
+    <data name="DisplayName_VTTR_Tech_UTIL_P1" xml:space="preserve">
+        <value>Projector Schematic</value>
+        <comment/>
+    </data>
+    <data name="DisplayName_T2_VTTR_BP_UTIL_R1" xml:space="preserve">
+        <value>Research Extendable Arms</value>
+        <comment/>
+    </data>
+    <data name="DisplayName_VTTR_Tech_UTIL_R1" xml:space="preserve">
+        <value>Extendable Arms Schematic</value>
+        <comment/>
+    </data>
+    <data name="DisplayName_T2_VTTR_BP_UTIL_R2" xml:space="preserve">
+        <value>Research 180 Degree Rotation Arms</value>
+        <comment/>
+    </data>
+    <data name="DisplayName_VTTR_Tech_UTIL_R2" xml:space="preserve">
+        <value>180 Degree Rotation Arms Schematic</value>
+        <comment/>
+    </data>
+    <data name="DisplayName_T2_VTTR_BP_UTIL_R3" xml:space="preserve">
+        <value>Research 360 Degree Rotation Arms</value>
+        <comment/>
+    </data>
+    <data name="DisplayName_VTTR_Tech_UTIL_R3" xml:space="preserve">
+        <value>360 Degree Rotation Arms Schematic</value>
         <comment/>
     </data>
 </root>
