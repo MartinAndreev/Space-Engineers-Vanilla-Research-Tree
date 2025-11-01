@@ -297,7 +297,7 @@
       <DisplayName>{LOC:DisplayName_T2_VTTR_BP_ARM_W2}</DisplayName>
       <Icon>Textures\GUI\Icons\AQD_research_armor.dds</Icon>
       <Prerequisites>
-        <Item Amount="10" TypeId="Component" SubtypeId="AQD_Comp_ResearchMaterial" />
+        <Item Amount="10" TypeId="Component" SubtypeId="AQD_Comp_EnhancedResearchMaterial" />
         <Item Amount="1" TypeId="Component" SubtypeId="VTTR_Tech_ARM_W1" />
       </Prerequisites>
       <Results>
@@ -515,7 +515,7 @@
       <DisplayName>{LOC:DisplayName_T2_VTTR_BP_STOR_H2}</DisplayName>
       <Icon>Textures\GUI\Icons\AQD_research_storage.dds</Icon>
       <Prerequisites>
-        <Item Amount="80" TypeId="Component" SubtypeId="AQD_Comp_ResearchMaterial" />
+        <Item Amount="80" TypeId="Component" SubtypeId="AQD_Comp_EnhancedResearchMaterial" />
         <Item Amount="1" TypeId="Component" SubtypeId="VTTR_Tech_STOR_H1" />
       </Prerequisites>
       <Results>
@@ -848,7 +848,7 @@
       <DisplayName>{LOC:DisplayName_T2_VTTR_BP_DEF_T3}</DisplayName>
       <Icon>Textures\GUI\Icons\AQD_research_default.dds</Icon>
       <Prerequisites>
-        <Item Amount="80" TypeId="Component" SubtypeId="AQD_Comp_ResearchMaterial" />
+        <Item Amount="45" TypeId="Component" SubtypeId="AQD_Comp_EnhancedResearchMaterial" />
         <Item Amount="1" TypeId="Component" SubtypeId="VTTR_Tech_DEF_T2" />
       </Prerequisites>
       <Results>
