@@ -388,7 +388,6 @@
       <Icon>Textures\GUI\Icons\AQD_research_automation.dds</Icon>
       <Prerequisites>
         <Item Amount="40" TypeId="Component" SubtypeId="AQD_Comp_EnhancedResearchMaterial" />
-        <Item Amount="1" TypeId="Component" SubtypeId="VTTR_Tech_STOR_C6" />
       </Prerequisites>
       <Results>
         <Item Amount="1" TypeId="Component" SubtypeId="VTTR_Tech_AUT_C1" />

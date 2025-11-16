@@ -918,6 +918,8 @@
               [Id Type="MyObjectBuilder_RadioAntenna" SubtypeId="LargeBlockRadioAntennaDish" UseBlockVariantsGroup="false" /]
               [Id Type="MyObjectBuilder_RadioAntenna" SubtypeId="LargeBlockCompactRadioAntenna" UseBlockVariantsGroup="false" /]
               [Id Type="MyObjectBuilder_RadioAntenna" SubtypeId="LargeBlockCompactRadioAntennaReskin" UseBlockVariantsGroup="false" /]
+              [Id Type="MyObjectBuilder_RadioAntenna" SubtypeId="SmallBlockRadioAntenna" UseBlockVariantsGroup="false" /]
+              [Id Type="MyObjectBuilder_RadioAntenna" SubtypeId="SmallBlockCompactRadioAntennaReskin" UseBlockVariantsGroup="false" /]
             [/BlockDefinitons]
           [/ResearchGroup]
           [ResearchGroup]
