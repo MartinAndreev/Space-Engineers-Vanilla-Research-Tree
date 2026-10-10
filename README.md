@@ -47,8 +47,11 @@ Navigate to the folder where you cloned the repository and run:
 ```
 
 This will:
+- Validate XML-based mod files (`.sbc`, `.sbl`, `.resx`, `.xml`, `.mod`, `.sbmi`) before changing the build output
 - Copy all project files (respecting `.gitignore`) into a `.build` folder  
 - Create a symbolic link from your Space Engineers Mods folder to the build output
+
+Malformed XML (including missing or mismatched closing tags) stops the build with the file name, line, and position. The previous build remains intact. A one-time build exits with an error; continuous mode reports the error and retries at the next interval. This checks XML syntax, not Space Engineers definition rules.
 
 ---
 
